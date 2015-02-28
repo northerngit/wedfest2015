@@ -368,7 +368,7 @@ position:relative;
 /** ICONS OVER IMAGES **/
 
 
-.about-icon, .location-icon, .gifts-icon, .tableware-icon, .comments-icon   {
+.about-icon, .location-icon, .accommodation-icon, .tableware-icon, .bands-icon, .plan-icon, .comments-icon   {
   position:absolute;
   top:0px;
   left:0px;
@@ -385,7 +385,7 @@ position:relative;
   text-align:center;    
 }
 
-.about-icon:before, .location-icon:before, .gifts-icon:before, .tableware-icon:before, .comments-icon:before {  
+.about-icon:before, .location-icon:before, .accommodation-icon:before, .tableware-icon:before, .bands-icon:before, .plan-icon:before, .comments-icon:before {  
   position:absolute;
   width:100%;
   height:100%;
@@ -401,19 +401,27 @@ position:relative;
   content:"\f041";
 }
 
-.gifts-icon:before {
-  content:"\f06b";
+.accommodation-icon:before {
+  content:"\f236";
 }
 
 .tableware-icon:before {
   content:"\f0f5";
 }
 
+.bands-icon:before {
+  content:"\f001";
+}
+
+.plan-icon:before {
+  content:"\f046";
+}
+
 .comments-icon:before {
-  content:"\f075";
+  content:"\f0e0";
 }
  
-.about-icon:hover, .location-icon:hover, .gifts-icon:hover, .tableware-icon:hover, .comments-icon:hover{
+.about-icon:hover, .location-icon:hover, .accommodation-icon:hover, .tableware-icon:hover, .bands-icon:hover, .plan-icon:hover, .comments-icon:hover{
   opacity:0.5; 
 }
 

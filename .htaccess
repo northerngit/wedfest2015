@@ -1,0 +1,2 @@
+AddHandler php5-script .html
+AddType text/html .html

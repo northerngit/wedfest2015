@@ -23,7 +23,7 @@ $(document).ready(function(){
         },
         beforeSend:function()
         {
-          $("#message").html("<p class='text-center'><img src='images/ajax-loader.gif'></p>")
+          $("#message").html("<p class='text-center'><img src='img/ajax-loader.gif'></p>")
         }
       });
     }
